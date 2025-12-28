@@ -29,8 +29,8 @@ Outliers can change the average a lot.
 - Sometimes outliers are mistakes in data, and sometimes they are real but rare events.
 
 Example:
-<br>Average score without Eve: (50+52+49+51)/4 = 50.5
-<br>Average score with Eve: (50+52+49+51+100)/5 = 60.4 →<b><i> big jump because of one outlier!</b></i>
+<br>Average score without Eve: `(50+52+49+51)/4 = 50.5`
+<br>Average score with Eve:` (50+52+49+51+100)/5 = 60.4` →<b><i> big jump because of one outlier!</b></i>
 
 > How to Handle Outliers Once we spot an outlier, we decide what to do with it:
 
