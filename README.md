@@ -20,6 +20,13 @@
 
   ![predictions](./linear-reg/prediction.png)
 
+### Polynomial Regression
+
+- [polynomial-reg.ipynb](./poly-reg/polynomial-reg.ipynb) - Implementation of polynomial regression with gradient descent on salary data
+  - Uses x, x², x³ features with normalization
+
+  ![predictions](./poly-reg/prediction.png)
+
 ## Setup
 
 ```bash
