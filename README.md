@@ -1,6 +1,7 @@
 # Learning ML
 
-Personal notes and implementations while learning machine learning.
+> [!NOTE]
+> very rough will get around to it eventually
 
 ## Contents
 
@@ -15,8 +16,9 @@ Personal notes and implementations while learning machine learning.
 ### Linear Regression
 
 - [linear-reg.ipynb](./linear-reg/linear-reg.ipynb) - Implementation of linear regression with gradient descent
-  - Model parameters: w ≈ 0.999, b ≈ 0.015
-  - Includes training data, gradient descent convergence, and prediction visualizations
+  - final results: w ≈ 0.999, b ≈ 0.015
+
+  ![predictions](./linear-reg/prediction.png)
 
 ## Setup
 
