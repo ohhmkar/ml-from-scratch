@@ -27,11 +27,13 @@
 
   ![predictions](./poly-reg/prediction.png)
 
-## Setup
+### Logistic Regression
 
-```bash
-pip install numpy pandas matplotlib jupyter
-```
+- [logistic-regression.ipynb](./logistic-reg/logistic-regression.ipynb) - Implementation of logistic regression for classification
+  - Uses sigmoid function and binary cross-entropy loss
+
+  ![confusion matrix](./logistic-reg/confusion_matrix.png)
+  ![roc curve](./logistic-reg/roc_curve.png)
 
 ## Sources
 
