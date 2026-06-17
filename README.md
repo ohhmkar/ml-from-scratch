@@ -35,6 +35,29 @@
   ![confusion matrix](./logistic-reg/confusion_matrix.png)
   ![roc curve](./logistic-reg/roc_curve.png)
 
+### KMeans Clustering
+
+- [kmeans-clustering.ipynb](./kmeans-clustering/k-means-clustering.ipynb)
+  Implementation of 2D KMeans to classify countries as Underdeveloped, Developing and Developed based on Life Expectance and Child Mortality
+
+![results](./kmeans-clustering/results.png)
+
+### F1 Pit Stop Prediction
+
+- [f1-lap-data-analysis.ipynb](./f1-lap-analysis/f1-lap-data-analysis.ipynb) - Logistic regression to predict pit stops using F1 lap data (101k laps, 16 features)
+  - GPU-accelerated with CuPy on T4
+  - Custom gradient descent with weighted binary cross-entropy loss
+  - Degree-2 polynomial features
+  - One-hot encoded Driver (31) and Race (28) features
+  - F1-optimal threshold sweep for imbalanced data
+  - Standalone CLI tool for predictions ([pit_predict.py](./f1-lap-analysis/pit_predict.py))
+
+  **Results:** 86% accuracy, 73% recall, 0.73 F1
+
+  ![confusion matrix](./f1-lap-analysis/confusion_matrix.png)
+  ![roc curve](./f1-lap-analysis/roc_curve.png)
+  ![cost history](./f1-lap-analysis/cost_history.png)
+
 ## Sources
 
 - [CodeChef ML Roadmap](https://www.codechef.com/roadmap/machine-learning-using-python)
