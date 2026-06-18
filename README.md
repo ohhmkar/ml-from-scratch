@@ -58,6 +58,13 @@
   ![roc curve](./f1-lap-analysis/roc_curve.png)
   ![cost history](./f1-lap-analysis/cost_history.png)
 
+### RL Pathfinding (Dynamic Gridworld)
+
+- [rl-pathfinding.ipynb](./rl-pathfinding/rl-pathfinding.ipynb) - Pathfinding framed as reinforcement learning, from static value iteration to a moving obstacle. Full writeup in the [project README](./rl-pathfinding/README.md).
+  - Value iteration in 2D/3D (essentially Dijkstra), then Q-learning + SARSA once the obstacle moves
+  - Obstacle-aware vs blind ablation, Q-learning vs SARSA, results averaged across seeds with error bars
+  - **Results:** SARSA ~7–9% crash rate vs Q-learning ~21% at the same path length; counterintuitively, the obstacle-blind agent (~11–13%) beat the obstacle-aware one (~21%)
+
 ## Sources
 
 - [CodeChef ML Roadmap](https://www.codechef.com/roadmap/machine-learning-using-python)
