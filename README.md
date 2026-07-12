@@ -1,7 +1,7 @@
 # Learning ML
 
 > [!NOTE]
-> very rough will get around to it eventually
+> Repository documenting my implementations of classical machine learning algorithms and experiments.
 
 ## Contents
 
